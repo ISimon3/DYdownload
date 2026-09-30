@@ -1,0 +1,9 @@
+[[permission]]
+identifier = "allow-main"
+description = "Local application commands"
+commands.allow = ["open_douyin", "session_status", "query_author", "load_more", "start_download", "cancel_download", "default_directory", "saved_library", "work_details", "prepare_work_media", "download_work_audio", "media_thumbnail", "open_saved_path"]
+
+[[permission]]
+identifier = "allow-capture"
+description = "Receive bounded public work metadata from Douyin"
+commands.allow = ["capture_works"]
